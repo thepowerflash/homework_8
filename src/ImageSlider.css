@@ -1,0 +1,28 @@
+.image-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  img {
+   width: 400px;
+   height: 300px;
+  }
+  
+  button {
+    background-color: #800080; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  button:focus {
+    outline: none;
+  }
